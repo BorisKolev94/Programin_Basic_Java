@@ -4,15 +4,19 @@ import java.util.Scanner;
 
 public class akvarium {
     public static void main(String[] args) {
-        Scanner scanne = new Scanner(System.in);
-        int dalgina = Integer.parseInt(scanne.nextLine());
-        int shiro4ina = Integer.parseInt(scanne.nextLine());
-        int viso4ina = Integer.parseInt(scanne.nextLine());
-        double procent = Double.parseDouble(scanne.nextLine());
-     int result1 = dalgina+shiro4ina+viso4ina;
-     double result2 = result1/1000;
-     double prostranstvo = result2 * (1-procent);
-        System.out.println(prostranstvo);
+        Scanner scanner = new Scanner(System.in);
+
+        double lenghtSm = Double.parseDouble(scanner.nextLine());
+        double widthSm = Double.parseDouble(scanner.nextLine());
+        double heightSm = Double.parseDouble(scanner.nextLine());
+        double parcent = Double.parseDouble(scanner.nextLine());
+
+        //V=a.b.c
+        double volume = lenghtSm * widthSm * heightSm;
+        double totalLitters = volume * 0.001;
+        double parcentSum = parcent * 0.01;
+        double total = totalLitters * (1 - parcentSum);
+        System.out.printf("%.5f", total);
 
 
     }
