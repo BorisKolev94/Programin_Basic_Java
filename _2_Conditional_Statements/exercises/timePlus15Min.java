@@ -11,6 +11,10 @@ public class timePlus15Min {
         int totalMiN = hour * 60 + minutes + 15;
         hour = totalMiN / 60;
         minutes = totalMiN % 60;
+
+        if (hour>23){
+            hour =0;
+        }
         System.out.printf("%d:%02d", hour, minutes);
     }
 }
