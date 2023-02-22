@@ -7,26 +7,16 @@ public class weekendOrWorkingDay {
         Scanner scanner = new Scanner(System.in);
         String day = scanner.nextLine();
 
-        switch (day){
-            case("Monday"):
+        switch (day) {
+            case ("Monday"):
+            case ("Tuesday"):
+            case ("Wednesday"):
+            case ("Thursday"):
+            case ("Friday"):
                 System.out.println("Working day");
                 break;
-            case("Tuesday"):
-                System.out.println("Working day");
-                break;
-            case("Wednesday"):
-                System.out.println("Working day");
-                break;
-            case("Thursday"):
-                System.out.println("Working day");
-                break;
-            case("Friday"):
-                System.out.println("Working day");
-                break;
-            case("Saturday"):
-                System.out.println("Weekend");
-                break;
-            case("Sunday"):
+            case ("Saturday"):
+            case ("Sunday"):
                 System.out.println("Weekend");
                 break;
             default:
