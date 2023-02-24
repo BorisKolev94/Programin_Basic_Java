@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class figureArea {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         String figure = scanner.nextLine();
         double area = 0;
 
