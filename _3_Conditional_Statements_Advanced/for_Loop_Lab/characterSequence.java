@@ -6,10 +6,9 @@ public class characterSequence {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String text = scanner.nextLine();
-        int lengh = text.length();
-        for (int i=0; i<lengh; i++){
-            char letter = text.charAt(i);
-            System.out.println(letter);
+        for (int i = 0; i < text.length(); i++) {
+
+            System.out.println(text.charAt(i));
         }
     }
 }
