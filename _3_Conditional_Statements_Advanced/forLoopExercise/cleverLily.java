@@ -25,8 +25,8 @@ public class cleverLily {
                 toyCount++;
             }
         }
-        double totalToyPrice = toyCount * priceToys-brother;
-        double totalMoney = totalToyPrice +allMoney;
+        double totalToyPrice = toyCount * priceToys;
+        double totalMoney = totalToyPrice +allMoney-brother;
         double diff= Math.abs(priceWashingMachine-totalMoney);
         if (totalMoney >= priceWashingMachine) {
             System.out.printf("Yes! %.2f",diff);
