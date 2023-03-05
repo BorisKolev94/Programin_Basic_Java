@@ -10,6 +10,7 @@ public class journey {
 
         String destination = "";
         String typeOfVacation = "";
+
         if (budget <= 100) {
             destination = "Bulgaria";
             if (seazon.equals("summer")) {

@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/_2_Conditional_Statements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_3_Conditional_Statements_Advanced" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_1_First_Steps" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_4_For_Loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_5_While_Loop" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
