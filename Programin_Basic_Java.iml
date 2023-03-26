@@ -10,6 +10,12 @@
       <sourceFolder url="file://$MODULE_DIR$/_1_First_Steps" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_4_For_Loop" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_5_While_Loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_06_NestedLoop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examPreparationApril2021" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examPreparationNovember2022" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examPreperationFebruary2022" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examPreparationMart2022" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exam18032023" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

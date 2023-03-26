@@ -10,7 +10,7 @@ public class moving {
         int height = Integer.parseInt(scanner.nextLine());
         int totalSpace = width * length * height;
         String command = scanner.nextLine();
-        Boolean noMoreSpace = false;
+        boolean noMoreSpace = false;
         while (!command.equals("Done")) {
             int boxes = Integer.parseInt(command);
             totalSpace = totalSpace - boxes;
@@ -20,9 +20,9 @@ public class moving {
             }
             command = scanner.nextLine();
         }
-        if (noMoreSpace){
+        if (noMoreSpace) {
             System.out.printf("No more free space! You need %d Cubic meters more.", Math.abs(totalSpace));
-        }else{
+        } else {
             System.out.printf("%d Cubic meters left.", totalSpace);
         }
     }
